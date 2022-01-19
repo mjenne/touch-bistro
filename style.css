@@ -1,0 +1,43 @@
+#navbar-1{
+    background-color: rgb(0, 0, 83);
+    color: white;
+    position: sticky;
+    list-style-type: none;
+}
+
+.nav{
+    color: white;
+    font-size: 20px;
+}
+
+.nav-r li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+.nav-l li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+.nav-l {
+      float: right
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+
+a:link {
+    text-decoration: none;
+  }
+
+.logo { 
+    max-width: 10%;  
+    text-align: left;
+    }  
+    
