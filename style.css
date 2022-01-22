@@ -6,6 +6,8 @@
     width: 100%;
     top: 0px;
     padding: 0px;
+    float:inline-start;
+    border-style: solid;
 }
 
 .blank-box {
@@ -13,8 +15,10 @@
   border-color:rgb(84, 189, 183);
   border-width: 1px;
   position:fixed;
-  margin-top: 45px;
+  margin-top: 43px;
   background-color: white;
+  clear:both;
+  border-style: solid;
 }
 
 .nav{
@@ -53,23 +57,41 @@ a:link {
 }
   
 .logo { 
-    max-width: 10%;  
+    max-width: 12%;  
     text-align: left;
+    margin-right: 100px;
+    margin-left: 9%
     }  
 
+.pic img {
+  width: 100%;
+}
+
  .pic {
-  height: 100px; 
-  padding-top: 120px;
-  padding-right: 20px;
-  padding-bottom: 10px;
+  margin-top: 120px;
+  padding-bottom: 20px;
   float:left;
+  width: 38%;
+  border-style: solid;
+  clear:left;
  }
  
 .title {
-   padding-top: 140px;
-   padding-bottom: 200px;
+  margin-top:120px;
+   padding-bottom: 40px;
    font-size: 30px;
+   float:right;
+   width:60%;
+   border-style: solid;
  }
+
+ h1 {padding-bottom:55px;}
+
+ #by {
+   font-size:14px
+ }
+
+ #author {color:rgb(84, 189, 183);}
 
 #experience {
    color:rgb(84, 189, 183);
@@ -78,25 +100,77 @@ a:link {
 
 .container-1 {
   align-self: center;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 9%;
+  padding-right: 9%;
 }
 
 .side {
   float:left;
   padding-right:100px;
-  margin-bottom: 100%;
   padding-top: 20px;
   font-size:20px;
   color: black;
   font-style: none;
+  border-style: solid;
+  clear:right;
 }
 
 a.sidebar:visited{
   color: black;
-  
 }
-ul.side-bar {
+
+a.sidebar:link{
+  color: black;
+}
+
+.side-bar {
   padding-bottom: 20px;
+  /*border-left-style: solid;*/
+  border-left-color: black;
+  border-left-width: 1px;
 }
   
+.list-of-apps:link {
+  color: rgb(84, 189, 183);
+  text-decoration: underline;
+}
+.list-of-apps:visited {
+  color: rgb(84, 189, 183);
+  text-decoration: underline;
+}
+.list-of-apps:hover {
+  color: rgb(156, 223, 219);
+  text-decoration: underline;
+}
+
+p {
+  font-size: 20px;
+}
+.main-content{
+  margin-left: 15%;
+  clear:right;
+  border-style:solid;
+  border-color: black;
+  
+}
+
+.jackie {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  float:left;
+  border-style: solid;
+  margin-left: 15%;
+}
+.jcky {
+  margin-left: 280px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  font-size: 16px;
+  border-style: solid;
+}
+.bio {
+  font-size: 16px;
+  margin-left: 15%;
+  border-style: solid;
+}
