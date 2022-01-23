@@ -26,6 +26,8 @@
     font-size: 20px;
   }
 
+.nav-l{padding-left: 9%;}
+
 .nav-l li {
     display: inline-block;
     font-size: 20px;
@@ -39,7 +41,8 @@
   }
 
 .nav-r {
-      float: right
+      float: right;
+      padding-right: 9%;
   }
 
 ul {
@@ -173,4 +176,19 @@ p {
 .bio {
   font-size: 16px;
   margin-left: 15%;
+}
+
+.next:visited { color:rgb(156, 223, 219);}
+
+.next:link {color:rgb(156, 223, 219); }
+
+.next { font-size: 30px;}
+
+.next-article {
+  padding-left :21%;
+  border-top:rgb(84, 189, 183);
+  border-top-style: solid;
+  margin-left: 0;
+  border-bottom:rgb(84, 189, 183);
+  border-bottom-style: solid;
 }
