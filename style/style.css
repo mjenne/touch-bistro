@@ -1,3 +1,19 @@
+
+p {
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+h1 {
+  padding-bottom:55px;
+}
+
 #navbar-1{
     background-color: rgb(7, 7, 36);
     color: white;
@@ -49,12 +65,7 @@
     padding-right: 9%;
   }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-  }
+
 
 a:link {
     text-decoration: none;
@@ -80,22 +91,18 @@ a:link {
     padding-bottom: 20px;
     float:left;
     width: 495px;
-    clear:left;
   }
  
 .title {
     margin-top:120px;
     padding-bottom: 40px;
+    padding-left: 30px;
     font-size: 30px;
-    float:right;
+    float: left;
     width:60%;
   }
 
-h1 {
-    padding-bottom:55px;
-  }
-
-#by {
+.title h2 {
     font-size:14px
   }
 
@@ -114,30 +121,42 @@ h1 {
     padding-right: 9%;
   }
 
-.side {
-    float:left;
+/*.side {
+    width:20%;
     padding-right:100px;
     margin-top: 20px;
-    font-size:20px;
+    font-size: 20px;
     color: black;
     font-style: none;
     border-left-style: solid;
     border-left-width: 1px;
+    clear: left;
+    margin-right:0px;
+    float:left;
   }
 
-a.sidebar:visited{
+.side a:visited{
     color: black;
   }
 
-a.sidebar:link{
+.side a:link{
     color: black;
   }
 
-.side-bar {
-    padding-bottom: 20px;
+.side ul {
     margin-top: 0px;
   }
-  
+
+.side li {
+  padding-bottom: 20px;
+}*/
+
+.main-content{
+    padding-top: 2px;
+    margin-left: 15%;
+    display:inline-block;
+}
+
 .list-of-apps:link {
     color: rgb(84, 189, 183);
     text-decoration: underline;
@@ -153,17 +172,7 @@ a.sidebar:link{
     text-decoration: underline;
   }
 
-p {
-    font-size: 20px;
-  }
-
-.main-content{
-    padding-top: 2px;
-    margin-left: 15%;
-    clear:right;
-  }
-
-.jackie {
+.author img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -171,14 +180,13 @@ p {
     /*margin-left: 15%;*/
   }
 
-.jcky {
-    margin-left: 100px;
+.author h3{
     padding-top: 15px;
     padding-bottom: 30px;
     font-size: 16px; 
   }
 
-.bio {
+.author p {
     font-size: 16px;
   }
 
@@ -190,15 +198,18 @@ p {
     color:rgb(156, 223, 219); 
   }
 
-a.next-article { 
-    font-size: 30px;
-  }
-
 .next-article {
+    float: left;  
     padding-left :21%;
     border-top:rgb(84, 189, 183);
     border-top-style: solid;
     margin-left: 0;
+    padding-inline-end: 30%;
     border-bottom:rgb(84, 189, 183);
     border-bottom-style: solid;
+    width:100%;
   }
+
+.next-article a {
+    font-size: 40px; 
+}
